@@ -13,12 +13,7 @@
 @interface CarViewController ()
 
 @property(nonatomic,strong) NSMutableArray *dataArray;
-
-
-
 @property(nonatomic,strong) NSMutableArray *carArray;
-
-
 
 @end
 
@@ -102,7 +97,6 @@
     cell.detailTextLabel.text = [NSString stringWithFormat:@"price: $% ld",car.price];
     
     return cell;
-    
 }
 /**
  *  设置删除按钮

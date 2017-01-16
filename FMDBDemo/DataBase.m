@@ -18,9 +18,6 @@ static DataBase *_DBCtl = nil;
     
 }
 
-
-
-
 @end
 
 @implementation DataBase
